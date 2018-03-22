@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Radiant Engineers| Welcome</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.11.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.11.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.11.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.11.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.11.0/firebase-storage.js"></script>
+    <script defer src="/__/firebase/4.11.0/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+
+
+    
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-default ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <span class="navLogo">Radiant</span> Engineers</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li id="ourProductsNav">
+                        <a  >Our Products <span class="caret"></span></a>
+                        </li>
+                        <li class="active">
+                            <a href="about_us.html">Company</a>
+                        </li>
+                        <li >
+                            <a href="contact_us.html" >Contact Us</a>
+                        </li>
+                        <li id="telNav">
+                                <a href="tel:+919811459911" class="text-center telNav " style="color:#e8323a; text-decoration:none; font-weight:bold;" ><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>     +91 9811459911</a>
+                            </li>
+
+                    </ul>
+                    <form class="navbar-form" style="text-align:center; ">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="searchBar" placeholder="Search product..." style="width:350px;">
+                        </div>
+                        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- ________________________________________OUR PRODUCTS ON HOVER_________________________________________________-->
+    <div class="opHover lightGrey" id="opHoverId" reference="navBar">
+        <div id="redLine"></div>
+
+        <div class="container">
+            <div class="row" id="opMenu"></div>
+        </div>    
+        
+    </div>
+
+    <!--__________________________________SEARCH________________________________________________-->
+    <div id="searchContainer">
+            <!-- <div id="redLine"></div> -->
+            <div class="container">
+                   <div id="searchItem" ></div>
+                   <p style="display:none; margin-left:60px" id="searchFailed">No products found.</P>
+                
+                </div>    
+
+    </div>
+
+      <!-- JUMBOTRON -->
+      <!-- <div class="jumbotron aboutJumbotron">
+            <div class="container">
+                <div id="jumbotron-content">
+                    <h4 style="margin-top:10%" class="vertical">ABOUT US</h4>
+                </div>
+            </div>
+        </div> -->
+    <div class="aboutMediaTitle">
+        <h1>R A D I A N T <br> E N G I N E E R S</h1>
+    </div>
+
+    <div class="container aboutContent">
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 aboutTitle"  >
+            <!-- <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+             <h1 style="margin-top:10px; font-size:400%;" class="vertical text-center">ABOUT US</h1>
+        </div>
+
+        <div class=" col-xs-11 col-sm-11 col-md-11" style="margin-left:20px;" >
+            <br>
+            <br>
+            <h3>
+                    WHO ARE WE AND WHAT WE DO?
+                </h3>
+             <p style="text-align: justify; line-height:170%; font-size:120%; margin-right:20px;">
+                    Established in the year 2002,in New Delhi (India),
+                    we are engaged in distributing a
+                    comprehensive assortment of <b>Industrial Adhesives &amp;
+                    Sealants, Surface Protective Coatings, Metal Filled
+                    Epoxies, Anti-Seize Compounds, Biodegradable
+                    Cleaners, etc. of Loctite® make and Specialty
+                    Lubricants of Molygraph® make.</b><br><br>
+                    These products are formulated by our principals under the
+                    guidance of their skilled professionals by making use of
+                    best grade chemicals and latest processing techniques.<br>
+                    The offered products are highly acclaimed for their
+                    properties like purity, high effectiveness, longer shelf life,
+                    precise pH value and accurate composition.</p>
+            <h3>
+                OUR VALUES
+            </h3>
+            <p style="text-align: justify; line-height:170%; font-size:120%; margin-right:20px;">
+                    Radiant is dedicated to providing the best Quality, Value and Service to meet our customers’ needs.
+                    At Radiant, our business principles are rooted in our personal faith and beliefs.Solving problems instead of selling products has been our business moto since the year of establishment.<br></p>
+            <h3>
+                OUR MISSION
+            </h3>
+            <p style="text-align: justify; line-height:170%; font-size:120%; margin-right:20px;">
+                    We aim at achieving higher customer satisfaction by giving utmost care in consistency of quality of our delivered products.Our long standing relationship with our customers & principals have helped us in achieving what we have today. Maintaining these good relations as well as establishing new ones is the primary goal of our organisation. 
+            </p>
+
+            </div>
+            <!-- <div class="col-md-1" > -->
+
+            </div>
+
+    </div>    
+</div>    
+
+
+
+
+
+  
+
+
+
+
+
+    <!--FOOTER-->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="text-center footerContent">Copyright &copy; 2018 | Radiant Engineers | All rights reserved.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div id="productsContent">
+
+    </div> -->
+
+
+
+   <!-- MODALS--------------------------------------------------------- -->
+   <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+           
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h2 class="modal-title" id="myModalLabel"><span id="pModalName"></span></h2>
+            </div>
+            <div class="modal-body">
+                <h4 style="margin-bottom:0px;">
+                    <ul style="text-decoration:none;  list-style-type: none; margin-left:-34px;">
+                    Category: <span id="pModalCategory"></span> </h4><hr>
+                    </ul>
+                <h4>
+                    
+                    <ul style="text-decoration:none;  list-style-type: none; margin-left:-34px;" >
+                        <span id="pModalDetails">
+    
+                        </span>
+                    </ul>
+          
+               
+                </h4>
+               
+            </div>
+            
+          </div>
+       
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        CKEDITOR.replace('editor1');
+    </script>
+    <script src="js/navBar.js"></script>
+    <script src="js/contactScript.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy57g_u4pOeRoqAI6FW65LJ-sSFk8B_RA&callback=myMap"></script>
+</body>
+
+</html>
